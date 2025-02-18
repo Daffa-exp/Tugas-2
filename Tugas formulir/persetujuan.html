@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Relawan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="nav-logo">
+            <span>Formulir Pendaftaran Relawan</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Info Pribadi</a></li>
+            <li><a href="pendidikan.html">Info Pendidikan</a></li>
+            <li><a href="pengalaman.html">Info Pengalaman</a></li>
+            <li><a href="ketersediaan.html">Info Ketersediaan Waktu & Lokasi</a></li>
+            <li><a href="persetujuan.html">Info Persetujuan & Upload Dokumen</a></li>
+        </ul>
+    </nav>
+  </header> 
+  <div class="container">
+    <section>
+        <h2>Persetujuan & Upload Dokumen</h2>
+        <label for="cv">Upload CV atau Surat Motivasi (Opsional):</label>
+        <input type="file" id="cv" name="cv">
+
+        <label for="foto">Upload Foto atau KTP:</label>
+        <input type="file" id="foto" name="foto" required>
+
+        <label for="setuju">Setuju dengan Syarat & Ketentuan:</label>
+        <input type="checkbox" id="setuju" name="setuju" required>
+      </section>
+      <button type="submit">Kirim Formulir</button>
+  </div>
+  <footer>
+    <p>&copy; 2025 Muhammad Daffa Permana. Semua hak cipta dilindungi</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+
+header {
+    background-color: #23486A;
+    color: #fff;
+    padding: 10px 0;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo {
+    height: 40px;
+}
+
+.nav-logo span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3b6790;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8x rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    margin-bottom: 15px;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+.bio label {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+    color: #555;
+}
+
+.bio p {
+    display: inline-block;
+    color: #333;
+}
+
+
+
+.pendidikan-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pendidikan-list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+.pengalaman p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.pengalaman p strong {
+    color: #333;
+}
+
+
+.ketersediaan-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ketersediaan-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background  0.3s;
+}
+
+.ketersediaan-links a:hover {
+    background-color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #23486A;
+    color: #fff;
+    margin-top: 20px;
+    border-top: 2px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #23486A;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #23486A;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  

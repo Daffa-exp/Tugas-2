@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Relawan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="nav-logo">
+            <span>Formulir Pendaftaran Relawan</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Info Pribadi</a></li>
+            <li><a href="pendidikan.html">Info Pendidikan</a></li>
+            <li><a href="pengalaman.html">Info Pengalaman</a></li>
+            <li><a href="ketersediaan.html">Info Ketersediaan Waktu & Lokasi</a></li>
+            <li><a href="persetujuan.html">Info Persetujuan & Upload Dokumen</a></li>
+        </ul>
+    </nav>
+  </header> 
+  <div class="container">
+    <section>
+        <h2>Pengalaman & Motivasi</h2>
+        <label for="pengalaman">Pernah Menjadi Volunteer?</label>
+        <select id="pengalaman" name="pengalaman" required>
+          <option value="Ya">Ya</option>
+          <option value="Tidak">Tidak</option>
+        </select>
+
+        <label for="motif">Motivasi Bergabung:</label>
+        <textarea id="motif" name="motif" required></textarea>
+
+        <label for="bidang">Bidang yang Diminati:</label>
+        <input type="text" id="bidang" name="bidang" required>
+      </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Muhammad Daffa Permana. Semua hak cipta dilindungi</p>
+    </footer>
+</body>
+</html>
